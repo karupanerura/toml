@@ -1,112 +1,42 @@
-2013-04-24  Darren Chamberlain <dlc@sevenroot.org>
+Revision history for Perl extension TOML
 
-	* COPYING, MANIFEST, README: Added another contributor, and GPL.
+{{$NEXT}}
 
-2013-04-03  Darren Chamberlain <dlc@sevenroot.org>
+    - Use TOML::Parser for parsing.
+    - Now conforms to the specifications of CPAN::Changes::Spec.
 
-	* Changelog: Add Changelog, per issues/5
+0.92 2013-04-24T07:49:02-04:00
 
-2013-04-03  Darren Chamberlain <dlc@sevenroot.org>
+    - COPYING, MANIFEST, README: Added another contributor, and GPL.
+    - Changelog: Add Changelog, per issues/5
+    - TOML.pm: Added forgotten contributor (sorry!)
+    - MANIFEST, MANIFEST.SKIP: Add MANIFEST.SKIP to MANIFEST, and add .travis.yml to it
+    - .travis.yml: travis-ci.org config.
+    - TOML.pm: Handle embedded \" in strings.
+    - TOML.pm: Bump version number.
+    - : Merge pull request -4 from tokuhirom/better-unescape Better unescape
+    - TOML.pm, t/escape.t: Unescape characters correctly.
+    - README: Fix formatting for Contributor section.
+    - TOML.pm: Fix formatting for Contributor section.
 
-	* TOML.pm: Added forgotten contributor (sorry!)
+0.91 2013-03-19T09:01:13-04:00
 
-2013-04-02  Darren Chamberlain <dlc@sevenroot.org>
+    - README: Updated README from docs.
+    - t/reparse.t: Test roundtripping data -> toml -> data.
+    - TOML.pm: Code cleanups and new documentation.
+    - MANIFEST: Add new tests to manifest.
+    - t/example.t: Not sure why the structure was named $yaml, that doesn't make sense.
+    - : Merge pull request -3 from tokuhirom/master to_toml
+    - t/to_toml.t: better test case
+    - TOML.pm: Allow \z after number
+    - TOML.pm, t/to_toml.t: TOML generator
+    - README, TOML.pm: Update docs to reflect contributions.
+    - TOML.pm, t/broken.t: Update test to emit line number and broken line, as recommended by Matthias Bethke
+    - README: Update README with new docs.
+    - MANIFEST, TOML.pm, t/broken.t: On error, from_toml returns (undef, $error) in list context, and undef in scalar context.
+    - .gitignore: Ignore build stuff.
 
-	* MANIFEST, MANIFEST.SKIP: Add MANIFEST.SKIP to MANIFEST, and add
-	.travis.yml to it
+0.9 2013-02-25T09:18:27-08:00
 
-2013-04-02  Darren Chamberlain <dlc@sevenroot.org>
-
-	* .travis.yml: travis-ci.org config.
-
-2013-04-02  Darren Chamberlain <dlc@sevenroot.org>
-
-	* TOML.pm: Handle embedded \" in strings.
-
-2013-04-02  Darren Chamberlain <dlc@sevenroot.org>
-
-	* TOML.pm: Bump version number.
-
-2013-04-02  Darren Chamberlain <dlc@sevenroot.org>
-
-	* : Merge pull request #4 from tokuhirom/better-unescape Better unescape
-
-2013-04-02  tokuhirom <tokuhirom@gmail.com>
-
-	* TOML.pm, t/escape.t: Unescape characters correctly.
-
-2013-03-21  Darren Chamberlain <dlc@sevenroot.org>
-
-	* README: Fix formatting for Contributor section.
-
-2013-03-21  Darren Chamberlain <dlc@sevenroot.org>
-
-	* TOML.pm: Fix formatting for Contributor section.
-
-2013-03-19  Darren Chamberlain <dlc@sevenroot.org>
-
-	* README: Updated README from docs.
-
-2013-03-19  Darren Chamberlain <dlc@sevenroot.org>
-
-	* t/reparse.t: Test roundtripping data -> toml -> data.
-
-2013-03-19  Darren Chamberlain <dlc@sevenroot.org>
-
-	* TOML.pm: Code cleanups and new documentation.
-
-2013-03-19  Darren Chamberlain <dlc@sevenroot.org>
-
-	* MANIFEST: Add new tests to manifest.
-
-2013-03-19  Darren Chamberlain <dlc@sevenroot.org>
-
-	* t/example.t: Not sure why the structure was named $yaml, that
-	doesn't make sense.
-
-2013-03-19  Darren Chamberlain <dlc@sevenroot.org>
-
-	* : Merge pull request #3 from tokuhirom/master to_toml
-
-2013-03-19  tokuhirom <tokuhirom@gmail.com>
-
-	* t/to_toml.t: better test case
-
-2013-03-19  tokuhirom <tokuhirom@gmail.com>
-
-	* TOML.pm: Allow \z after number
-
-2013-03-19  tokuhirom <tokuhirom@gmail.com>
-
-	* TOML.pm, t/to_toml.t: TOML generator
-
-2013-03-09  Darren Chamberlain <dlc@sevenroot.org>
-
-	* README, TOML.pm: Update docs to reflect contributions.
-
-2013-03-09  Darren Chamberlain <dlc@sevenroot.org>
-
-	* TOML.pm, t/broken.t: Update test to emit line number and broken
-	line, as recommended by Matthias Bethke
-
-2013-03-08  Darren Chamberlain <dlc@sevenroot.org>
-
-	* README: Update README with new docs.
-
-2013-03-08  Darren Chamberlain <dlc@sevenroot.org>
-
-	* MANIFEST, TOML.pm, t/broken.t: On error, from_toml returns (undef,
-	$error) in list context, and undef in scalar context.
-
-2013-03-08  Darren Chamberlain <dlc@sevenroot.org>
-
-	* .gitignore: Ignore build stuff.
-
-2013-02-25  Darren Chamberlain <dlc@sevenroot.org>
-
-	* : Merge pull request #1 from sergeyromanov/master Replace 'vars' pragma
-
-2013-02-24  Darren Chamberlain <dlc@sevenroot.org>
-
-	* Parser for Tom's Obvious, Minimal Language
-
+    - : Merge pull request -1 from sergeyromanov/master Replace 'vars' pragma
+    - Parser for Tom's Obvious, Minimal Language
