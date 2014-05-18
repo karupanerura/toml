@@ -2,6 +2,8 @@ Revision history for Perl extension TOML
 
 {{$NEXT}}
 
+0.93 2014-05-18T14:33:11Z
+
     - Use TOML::Parser for parsing.
     - Now conforms to the specifications of CPAN::Changes::Spec.
 

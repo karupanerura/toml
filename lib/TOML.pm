@@ -30,7 +30,7 @@ use B;
 use Carp qw(croak);
 use TOML::Parser;
 
-$VERSION = "0.92";
+$VERSION = "0.93";
 @EXPORT = qw(from_toml to_toml);
 $PARSER = TOML::Parser->new(inflate_boolean  => sub { $_[0] });
 

@@ -65,7 +65,7 @@
          "web" : "https://github.com/karupanerura/toml"
       }
    },
-   "version" : "0.92",
+   "version" : "0.93",
    "x_contributors" : [
       "Sergey Romanov <Sergey.Romanov@emc.com>",
       "tokuhirom <tokuhirom@gmail.com>",
