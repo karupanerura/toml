@@ -26,6 +26,23 @@ TOML - Parser for Tom's Obvious, Minimal Language.
 defined at [https://github.com/mojombo/toml](https://github.com/mojombo/toml). `TOML` exports two
 subroutines, `from_toml` and `to_toml`,
 
+# FAQ
+
+- How change how to deserialize?
+
+    You can change `$TOML::PARSER` for change how to deserialize.
+
+    example:
+
+        use TOML;
+        use TOML::Parser;
+
+        local $TOML::PARSER = TOML::Parser->new(
+            inflate_boolean => sub { $_[0] eq 'true' ? \1 : \0 },
+        );
+
+        my $data = TOML::from_toml('foo = true');
+
 # FUNCTIONS
 
 - from\_toml
