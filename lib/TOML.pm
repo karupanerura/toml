@@ -22,7 +22,7 @@ package TOML;
 
 use strict;
 use warnings;
-use base qw(Exporter);
+use parent qw(Exporter);
 
 our ($VERSION, @EXPORT, @_NAMESPACE, $PARSER);
 
