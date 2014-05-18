@@ -61,6 +61,10 @@ subroutines, `from_toml` and `to_toml`,
     `to_toml` transforms a perl data structure into toml-formatted
     string.
 
+# SEE ALSO
+
+[TOML::Parser](https://metacpan.org/pod/TOML::Parser)
+
 # AUTHOR
 
 Darren Chamberlain <darren@cpan.org>

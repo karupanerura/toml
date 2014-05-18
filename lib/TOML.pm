@@ -191,6 +191,10 @@ string.
 
 =back
 
+=head1 SEE ALSO
+
+L<TOML::Parser>
+
 =head1 AUTHOR
 
 Darren Chamberlain <darren@cpan.org>
