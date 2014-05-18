@@ -21,6 +21,7 @@ package TOML;
 # -------------------------------------------------------------------
 
 use strict;
+use warnings;
 use base qw(Exporter);
 
 our ($VERSION, @EXPORT, @_NAMESPACE, $PARSER);
@@ -183,5 +184,7 @@ Darren Chamberlain <darren@cpan.org>
 =item Matthias Bethke <matthias@towiski.de>
 
 =item Sergey Romanov <complefor@rambler.ru>
+
+=item karupanerura <karupa@cpan.org>
 
 =back

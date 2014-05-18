@@ -1,9 +1,0 @@
-COPYING
-Changelog
-Makefile.PL
-MANIFEST
-MANIFEST.SKIP
-README
-t/reparse.t
-t/to_toml.t
-TOML.pm
