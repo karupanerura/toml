@@ -148,6 +148,26 @@ C<TOML> implements a parser for Tom's Obvious, Minimal Language, as
 defined at L<https://github.com/mojombo/toml>. C<TOML> exports two
 subroutines, C<from_toml> and C<to_toml>,
 
+=head1 FAQ
+
+=over 4
+
+=item How change how to deserialize?
+
+You can change C<$TOML::PARSER> for change how to deserialize.
+
+example:
+
+    use TOML;
+    use TOML::Parser;
+
+    local $TOML::PARSER = TOML::Parser->new(
+        inflate_boolean => sub { $_[0] eq 'true' ? \1 : \0 },
+    );
+
+    my $data = TOML::from_toml('foo = true');
+
+=back
 
 =head1 FUNCTIONS
 
