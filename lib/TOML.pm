@@ -152,9 +152,9 @@ subroutines, C<from_toml> and C<to_toml>,
 
 =over 4
 
-=item How change how to deserialize?
+=item How change how to de-serialize?
 
-You can change C<$TOML::PARSER> for change how to deserialize.
+You can change C<$TOML::PARSER> for change how to de-serialize.
 
 example:
 

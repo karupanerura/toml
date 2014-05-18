@@ -28,9 +28,9 @@ subroutines, `from_toml` and `to_toml`,
 
 # FAQ
 
-- How change how to deserialize?
+- How change how to de-serialize?
 
-    You can change `$TOML::PARSER` for change how to deserialize.
+    You can change `$TOML::PARSER` for change how to de-serialize.
 
     example:
 
