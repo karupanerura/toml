@@ -43,7 +43,7 @@
       },
       "runtime" : {
          "requires" : {
-            "TOML::Parser" : "0",
+            "TOML::Parser" : "0.03",
             "parent" : "0",
             "perl" : "5.008005"
          }
@@ -66,7 +66,7 @@
          "web" : "https://github.com/karupanerura/toml"
       }
    },
-   "version" : "0.93",
+   "version" : "0.94",
    "x_contributors" : [
       "Sergey Romanov <Sergey.Romanov@emc.com>",
       "tokuhirom <tokuhirom@gmail.com>",
