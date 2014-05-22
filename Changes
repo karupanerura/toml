@@ -2,6 +2,8 @@ Revision history for Perl extension TOML
 
 {{$NEXT}}
 
+    - Required TOML::Parser 0.03 or later. (many bugs are fixed in this version)
+
 0.93 2014-05-18T14:33:11Z
 
     - Use TOML::Parser for parsing.
