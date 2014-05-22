@@ -6,6 +6,7 @@ package TOML;
 # Copyright (C) 2013 Darren Chamberlain <darren@cpan.org>
 # -------------------------------------------------------------------
 
+use 5.008005;
 use strict;
 use warnings;
 use parent qw(Exporter);
