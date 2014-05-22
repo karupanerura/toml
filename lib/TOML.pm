@@ -14,7 +14,7 @@ our ($VERSION, @EXPORT, @_NAMESPACE, $PARSER);
 
 use B;
 use Carp qw(croak);
-use TOML::Parser;
+use TOML::Parser 0.03;
 
 $VERSION = "0.93";
 @EXPORT = qw(from_toml to_toml);

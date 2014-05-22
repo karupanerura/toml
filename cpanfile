@@ -1,4 +1,4 @@
-requires 'TOML::Parser';
+requires 'TOML::Parser', '0.03';
 requires 'parent';
 
 on configure => sub {
