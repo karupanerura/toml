@@ -17,7 +17,7 @@ use B;
 use Carp qw(croak);
 use TOML::Parser 0.03;
 
-$VERSION = "0.94";
+$VERSION = "0.95";
 @EXPORT = qw(from_toml to_toml);
 $PARSER = TOML::Parser->new(inflate_boolean  => sub { $_[0] });
 
