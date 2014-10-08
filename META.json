@@ -4,7 +4,7 @@
       "Darren Chamberlain <darren@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v1.0.0, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "gpl_2"
    ],
@@ -43,7 +43,7 @@
       },
       "runtime" : {
          "requires" : {
-            "TOML::Parser" : "0.03",
+            "TOML::Parser" : "0.04",
             "parent" : "0",
             "perl" : "5.008005"
          }
