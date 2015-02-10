@@ -9,7 +9,7 @@ package TOML;
 use 5.008005;
 use strict;
 use warnings;
-use parent qw(Exporter);
+use Exporter 'import';
 
 our ($VERSION, @EXPORT, @_NAMESPACE, $PARSER);
 

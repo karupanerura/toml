@@ -1,5 +1,5 @@
 requires 'TOML::Parser', '0.04';
-requires 'parent';
+requires 'Exporter', '5.57';
 
 on configure => sub {
     requires 'Module::Build::Tiny', '0.035';

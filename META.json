@@ -43,8 +43,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Exporter" : "5.57",
             "TOML::Parser" : "0.04",
-            "parent" : "0",
             "perl" : "5.008005"
          }
       },
