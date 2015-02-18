@@ -2,6 +2,10 @@ Revision history for Perl extension TOML
 
 {{$NEXT}}
 
+0.96 2015-02-18T14:37:31Z
+
+    - Just import Exporter's "import" instead of inheriting from it. (thanks to dolmen)
+
 0.95 2014-10-08T23:41:57Z
 
     - Required TOML::Parser 0.04 or later. (bug fixed in this version)

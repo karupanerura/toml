@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/karupanerura/toml.png?branch=master)](https://travis-ci.org/karupanerura/toml)
+[![Build Status](https://travis-ci.org/karupanerura/toml.svg?branch=master)](https://travis-ci.org/karupanerura/toml)
 # NAME
 
 TOML - Parser for Tom's Obvious, Minimal Language.
