@@ -91,7 +91,6 @@ sub string_to_json {
     my ($arg) = @_;
 
     $arg =~ s/([\x22\x5c\n\r\t\f\b])/$esc{$1}/g;
-    $arg =~ s/\//\\\//g if 1;
     $arg =~ s/([\x00-\x08\x0b\x0e-\x1f])/'\\u00' . unpack('H2', $1)/eg;
 
     return '"' . $arg . '"';
