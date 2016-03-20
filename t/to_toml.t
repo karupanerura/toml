@@ -65,6 +65,14 @@ is(to_toml(+{ bar => \0 }), <<'...');
 bar = false
 ...
 
+test(
+    +{
+        path => 'foo/bar',
+    }
+, <<'...', 'filesystem path');
+path = "foo/bar"
+...
+
 done_testing;
 
 sub test {
