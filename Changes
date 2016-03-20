@@ -2,6 +2,10 @@ Revision history for Perl extension TOML
 
 {{$NEXT}}
 
+0.97 2016-03-20T01:40:44Z
+
+    - Don't escape forward slash. (thanks to Vickenty)
+
 0.96 2015-02-18T14:37:31Z
 
     - Just import Exporter's "import" instead of inheriting from it. (thanks to dolmen)

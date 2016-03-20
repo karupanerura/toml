@@ -4,7 +4,7 @@
       "Darren Chamberlain <darren@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.3.0, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "gpl_2"
    ],
@@ -66,13 +66,15 @@
          "web" : "https://github.com/karupanerura/toml"
       }
    },
-   "version" : "0.96",
+   "version" : "0.97",
    "x_contributors" : [
       "Sergey Romanov <Sergey.Romanov@emc.com>",
       "tokuhirom <tokuhirom@gmail.com>",
       "Darren Chamberlain <dlc@sevenroot.org>",
-      "karupanerura <karupa@cpan.org>",
       "Olivier Mengué <dolmen@cpan.org>",
-      "karupanerura <karupanerura@users.noreply.github.com>"
-   ]
+      "karupanerura <karupanerura@users.noreply.github.com>",
+      "Vickenty Fesunov <kent@setattr.net>",
+      "karupanerura <karupa@cpan.org>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }

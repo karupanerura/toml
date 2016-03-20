@@ -83,11 +83,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 
 # AUTHOR
 
-Darren Chamberlain <darren@cpan.org>
+Darren Chamberlain &lt;darren@cpan.org>
 
 # CONTRIBUTORS
 
-- Tokuhiro Matsuno <tokuhirom@cpan.org>
-- Matthias Bethke <matthias@towiski.de>
-- Sergey Romanov <complefor@rambler.ru>
-- karupanerura <karupa@cpan.org>
+- Tokuhiro Matsuno &lt;tokuhirom@cpan.org>
+- Matthias Bethke &lt;matthias@towiski.de>
+- Sergey Romanov &lt;complefor@rambler.ru>
+- karupanerura &lt;karupa@cpan.org>
