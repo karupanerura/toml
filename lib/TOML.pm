@@ -107,6 +107,10 @@ sub from_toml {
 
 __END__
 
+=encoding utf-8
+
+=for stopwords versa
+
 =head1 NAME
 
 TOML - Parser for Tom's Obvious, Minimal Language.
